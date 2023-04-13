@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+    <style>
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "> OUR PLACEMENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">CONTACTS</a>
+          </li>
+        </ul>
+
+        <!-- <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <!-- to make the slide move automatic add the sentence data-bs-ride="carousel" to the above line. -->
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000s">
+        <!-- data-bs-interval="1000s" - this is given in each div of images to control the speed(to increase the speed.) -->
+        <img src="./images/Lumin.jpg" class="d-block w-100" alt="...">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="text-start ms-5">Kerala's No.1 IT Finishing School <br>
+            100% Placement Assistance
+          </h1>
+          <h6 class="text-start ms-5">We at Luminar Technolab offers best software training and placement in <br>
+            emerging technologies like BIG DATA,Data Science,Machine <br> Learning,PYTHON,Software Testing</h6>
+
+          <button class="b1">VIEW COURSES</button>
+
+        </div>
+
+      </div>
+
+
+      <div class="carousel-item" data-bs-interval="1000000s">
+        <img src="./images/Lumin2.jpg" class="d-block w-100" alt="...">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="text-start ms-5">Data Science, ML & Al <br> Big Data - Hadoop & Spark <br> Python Data Science</h1>
+          <p class="text-start ms-5">We LUMINAR TECHNOLAB offers best software training and placement in <br> emerging
+            technologies like Big Data, Hadoop, Spark,Data Scince, Machine <br> Learning, Deep Learning and AI.</p>
+          <button class="b1">VIEW COURSES</button>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+  </div>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary t1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    More
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+        <div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+        <div class="modal-body">
+
+          <form>
+            <h2 class="text-center">Get Training Quote for free</h2>
+            <input type="text" placeholder="Name" class="form-control mt-3 pt-3">
+            <hr>
+            <input type="text" placeholder="Email" class="form-control mt-3 pt-3">
+            <hr>
+            <input type="text" placeholder="Phone Number" class="form-control mt-3 pt-3">
+            <hr>
+            <!-- <select name="" id="">
+            <option value="" class="form-control mt-3 pt-3">Select course interested in</option>
+            <option>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</option>
+            <option>Python Django - Angular- Full Stack Web Development Expert</option>
+          </select> -->
+            <input type="text" placeholder="City" class="form-control mt-3 pt-3">
+            <hr>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Comments" class="form-control mt-3 pt-3"></textarea>
+            <hr>
+
+
+          </form>
+
+        </div>
+
+        <button type="button" class="bb" style="background-color: #5e068a;">Submit</button>
+        <br>
+
+      </div>
+    </div>
+  </div> 
+
+
+
+
+    <div class="container w-75">
+        <div class="row">
+                <div class="col-6"><img src="./images/fig2.jpg" alt=""></div>
+                <div class="col-6 ">
+                  <h3 class="hh11">Data Science - ML - AI - Big Data with Cloud & Tableau</h3>
+                  <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning,
+                    Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud. </p>
+                  <p><strong>📅 Next Batch : Jan 03<sup>rd</sup> 2022 (09:30 am - 11:30 am)</strong></p>
+                  <p><strong>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day;</strong></p>
+                  <p><strong>🧑‍🏫 Course Fees:<a href="">link</a></strong></p><div></div>
+                </div>
+        
+        </div>
+            
+          </div>
+</body>
+</html>
